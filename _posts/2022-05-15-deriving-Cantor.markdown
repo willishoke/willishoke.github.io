@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Deriving the Cantor pairing function: a hidden geometric series"
-date:   2022-05-30
-# categories: python, math
-
+date:   2022-05-15
+categories: python math
+usemath: true
 ---
 
 ![Cantor pairing function](/assets/images/cantor.svg)
@@ -42,7 +42,7 @@ $= \displaystyle\frac{(x+y)(x+y+1)}{2}+y$
 
 Now, we can verify our identity using the `sympy` package:
 
-```
+```python
 >>> from sympy.abc import i, x, y
 >>> from sympy import Sum, expand
 >>> f1 = Sum(i, (i, 1, x + y + 1)).doit() - (x + 1)
@@ -50,4 +50,4 @@ Now, we can verify our identity using the `sympy` package:
 >>> f1 == f2
 True
 ```
-The source code used to generate all figures in this post can be found here.
+The source code used to generate all figures in this post can be found [here](https://github.com/willishoke/notebooks/blob/main/pairing_functions.ipynb).

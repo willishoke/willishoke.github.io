@@ -21,7 +21,7 @@
 title: IO ()
 author: Willis Hoke
 description: >- # this means to ignore newlines until "baseurl:"
-  A function of type `IO ()` can be understood as a function that encapsulates interactions with the outside world.
+  A function of type IO () can be understood as a function that encapsulates interactions with the outside world.
   This blog is a place for me to publish my projects, ideas, and experiments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,7 +30,6 @@ github_username: willishoke
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
