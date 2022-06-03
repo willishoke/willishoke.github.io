@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Finding a closed form for the boustrodephon pairing function"
-date:   2022-05-30 
-categories: python math
+date:   2022-05-21
 usemath: true
 ---
 
@@ -25,5 +24,4 @@ def boustrodephonPair(x, y):
     return even_term + odd_term
 ```
 
-
-The source code used to generate all figures in this post can be found here.
+The source code used to generate all figures in this post can be found [here](https://github.com/willishoke/notebooks/blob/main/pairing_functions.ipynb).

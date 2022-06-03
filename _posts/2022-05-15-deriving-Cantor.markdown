@@ -2,7 +2,6 @@
 layout: post
 title:  "Deriving the Cantor pairing function: a hidden geometric series"
 date:   2022-05-15
-categories: python math
 usemath: true
 ---
 
