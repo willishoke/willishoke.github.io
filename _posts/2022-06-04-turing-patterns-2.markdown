@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Turing Patterns in higher dimensions"
-date:   2022-06-01
+date:   2022-06-04
 usemath: true
 ---
 
@@ -17,3 +17,4 @@ I wanted to generate larger three dimensional patterns, so I came up with a comp
 
 ![Large 3D Turing Contour Map](/assets/images/turing3D2.svg)
 
+All code used to generate the above figures can be found [here]()
