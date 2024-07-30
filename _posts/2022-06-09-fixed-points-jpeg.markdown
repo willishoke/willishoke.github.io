@@ -19,7 +19,7 @@ The histogram shows a normally-distributed error curve with low variance, which 
 
 Next, I decided to test a more realistic use-case for JPEG compression: photographic images. I randomly selected 10,000 32x32 images from the CIFAR-100 image database. As expected, the mean squared error values were several orders of magnitude lower than compression of random noise. Despite several outliers with unusually high error, every intitial state converged to a fixed point within 40 iterations.
 
-![MSE, CIFAR100](/assets/images/CIFARError.svg)
+![MSE, CIFAR100](/assets/images/CIFARerror.svg)
 
 Unlike the tests with random noise, the number of iterations until convergence showed a weak bimodal distribution, with a substantial proportion of images converging on the first iteration, and a second, less pronounced centered around the fifth iteration. MSE appeared to follow a skew normal distribution. 
 
